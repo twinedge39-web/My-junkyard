@@ -27,7 +27,6 @@ Run the following from PowerShell:
 
 ```powershell
 .\WSLchecker.ps1
-```
 
 It will generate a short system health report similar to:
 
@@ -35,7 +34,7 @@ It will generate a short system health report similar to:
 Edition: Professional
 DisplayVersion: 25H2
 Build: 26200
-
+```
 **Created by:** twinedge39-web  
 **Last updated:** (auto-sync with current repo commit)
 
