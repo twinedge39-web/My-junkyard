@@ -20,3 +20,9 @@ Just don’t expect documentation, guarantees, or stability.
 
 ```bash
 git clone https://github.com/twinedge39-web/My-junkyard.git
+
+## 🧰 Backup Purpose
+This repository also works as a minimal backup hub.  
+Instead of cloning entire environments, I keep self-contained scripts and setup snippets that can rebuild key tools from scratch.
+
+If my system ever dies, this repo becomes the seed of resurrection.
