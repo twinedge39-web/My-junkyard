@@ -34,3 +34,40 @@
 ---
 
 _© 2025 twinedge39 (Apache-2.0 License)_
+
+# 🧰 PowerShell Utility Snippets
+
+This folder contains PowerShell and registry scripts that were **tested and confirmed to work on my own system**.  
+Results may vary depending on your environment — **use entirely at your own risk.**
+
+---
+
+## 🗂 Contents
+
+| File | Description |
+|------|--------------|
+| **Add-AdminShellHere.reg** | Adds “PowerShell 7 (Admin)” to the right-click context menu in File Explorer. |
+| **support.reg** | Auxiliary registry tweaks for PowerShell behavior and integration. |
+| **go_ps1file.txt** | Notes and command snippets for PowerShell file association or script execution checks. |
+
+---
+
+## ⚠️ Disclaimer
+
+- These scripts were verified **only in my personal environment**.  
+  They may behave differently or cause issues on other systems or Windows builds.  
+- Applying `.reg` files **requires administrator privileges**.  
+  Always read and understand the contents, and back up your registry before applying any changes.  
+- Some commands (like `taskkill /f /im explorer.exe`) will **restart File Explorer**, which is normal but can interrupt your workflow.  
+
+---
+
+## 💬 Notes
+
+These are mostly one-off helpers, quick experiments, or half-baked utilities.  
+If something breaks, it’s on you — **no warranties or guarantees are provided**.  
+Feel free to reuse or improve them if you manage to get consistent results.
+
+---
+
+_© 2025 twinedge39 — Licensed under Apache-2.0_
