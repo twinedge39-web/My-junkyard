@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+
+; ===== 背景（空白部）右クリック：この場所で PowerShell 7 管理者 =====
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Pwsh7AdminHere]
+"MUIVerb"="PowerShell 7（管理者）でここを開く"
+"HasLUAShield"=""
+"Icon"="C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Pwsh7AdminHere\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command \"Start-Process -Verb RunAs -FilePath 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' -ArgumentList @('-NoExit','-WorkingDirectory','\\\"%V\\\"')\""
+
+; ===== フォルダ上を右クリック：そのフォルダで PowerShell 7 管理者 =====
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Pwsh7AdminHere]
+"MUIVerb"="PowerShell 7（管理者）でここを開く"
+"HasLUAShield"=""
+"Icon"="C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Pwsh7AdminHere\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command \"Start-Process -Verb RunAs -FilePath 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' -ArgumentList @('-NoExit','-WorkingDirectory','\\\"%1\\\"')\""
+
+; ===== Windows Terminal（管理者・PS7 指定）=====
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\WTAdminHere]
+"MUIVerb"="Windows Terminal（管理者・PS7）でここを開く"
+"HasLUAShield"=""
+"Icon"="%SystemRoot%\\System32\\wt.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\WTAdminHere\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command \"Start-Process -Verb RunAs 'wt.exe' -ArgumentList @('-w','0','new-tab','-p','PowerShell','-d','\\\"%V\\\"')\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\WTAdminHere]
+"MUIVerb"="Windows Terminal（管理者・PS7）でここを開く"
+"HasLUAShield"=""
+"Icon"="%SystemRoot%\\System32\\wt.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\WTAdminHere\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command \"Start-Process -Verb RunAs 'wt.exe' -ArgumentList @('-w','0','new-tab','-p','PowerShell','-d','\\\"%1\\\"')\""

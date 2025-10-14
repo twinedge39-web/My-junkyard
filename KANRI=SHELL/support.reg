@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.psm1\shell\RunAsPwsh7]
+"MUIVerb"="管理者で実行 (PowerShell 7)"
+"HasLUAShield"=""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.psm1\shell\RunAsPwsh7\command]
+@="\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.psd1\shell\RunAsPwsh7]
+"MUIVerb"="管理者で実行 (PowerShell 7)"
+"HasLUAShield"=""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.psd1\shell\RunAsPwsh7\command]
+@="\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%1\""

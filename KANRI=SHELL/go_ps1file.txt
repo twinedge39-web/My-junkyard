@@ -1,0 +1,4 @@
+reg add "HKCU\Software\Classes\SystemFileAssociations\.ps1\shell\RunAsPwsh7" /v MUIVerb /t REG_SZ /d "管理者で実行 (PowerShell 7)" /f
+reg add "HKCU\Software\Classes\SystemFileAssociations\.ps1\shell\RunAsPwsh7" /v HasLUAShield /t REG_SZ /d "" /f
+reg add "HKCU\Software\Classes\SystemFileAssociations\.ps1\shell\RunAsPwsh7\command" /ve /t REG_SZ /d "\"C:\Program Files\PowerShell\7\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%1\"" /f
+taskkill /f /im explorer.exe & start explorer.exe
