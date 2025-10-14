@@ -17,6 +17,14 @@ _Personal collection by twinedge39_
 | **support.reg** | PowerShell の拡張設定を行う補助用レジストリ（依存箇所あり）。 |
 | **go_ps1file.txt** | PowerShell スクリプトの関連付け／自動実行確認に関するメモ・コマンド群。 |
 
+### 🔒 セキュリティ注意（必読）
+
+- ここにある `.reg` やスクリプトは**直接実行しないでください**。管理者権限が必要で、誤った適用はシステムに影響を与えます。  
+- **管理者の明示的承認がない限り実行は禁止**とします。テストは必ず仮想マシンや検証環境で行ってください。  
+- 配布物には SHA256 ハッシュを添付してください。ダウンロード後はハッシュを確認し、内容をテキストで必ずレビューしてください。  
+- 実行前にレジストリのバックアップ（例：`reg export HKCU backup.reg`）を必ず取ってください。  
+- `.reg` は公開リポジトリに生ファイルで置かない（`.reg.txt` とする等）運用を推奨します。
+
 ### ⚠️ 注意事項
 
 - これらのスクリプトは **私のローカル環境でのみ検証済み** です。  
@@ -45,6 +53,14 @@ Results may vary depending on your environment — **use entirely at your own ri
 | **Add-AdminShellHere.reg** | Adds “PowerShell 7 (Admin)” to the right-click context menu in File Explorer. |
 | **support.reg** | Auxiliary registry tweaks for PowerShell behavior and integration. |
 | **go_ps1file.txt** | Notes and command snippets for PowerShell file association or script execution checks. |
+
+### 🔒 Security Notice (MUST READ)
+
+- **Do not execute `.reg` or scripts here blindly.** They require admin privileges and can alter system behavior.  
+- **Execution is prohibited without explicit admin approval.** Always test in a VM or staging environment first.  
+- Provide SHA256 hashes for distributed files. Verify the hash and review the file contents before running.  
+- Export the registry before applying changes (e.g., `reg export HKCU backup.reg`).  
+- Prefer not to store raw `.reg` files in public repos (use `.reg.txt` or protected distribution channels).
 
 ### ⚠️ Disclaimer
 
