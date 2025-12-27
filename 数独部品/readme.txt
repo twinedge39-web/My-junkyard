@@ -1,3 +1,28 @@
+READMEに貼る用（日本語羅列）
+
+sudoku_solve.py：数独を解く／解の数を数える（唯一解チェック用、2解見つけたら止める）
+
+sudoku_drill_gen.py：練習用の穴あき数独（ドリル）を生成してCSVに吐く
+
+drills.csv：ドリル原本（id, grid81, note）。※Excel直開き注意（桁が壊れる可能性）
+
+expand_drills.py：drills.csv の grid81 を 9行形式に展開して、Excel安全版CSVを作る
+
+drills_expanded.csv：Excel安全版（1問＝row1〜row9 みたいに分割済み）
+
+make_drills_pdf.py：ドリルCSVから印刷用PDFを生成
+
+drills.pdf：印刷用（A4想定）の完成物
+
+drills_print.txt：テキストで盤面を並べた確認用（PDF化前の内容チェック用）
+
+txttile_drills.py：テキスト整形の実験用ユーティリティ（盤面を見やすく並べる系）
+
+puzzles.csv：試作／保管用の盤面置き場（ジャンク枠）
+
+
+
+
 sudoku_drill_gen.py
         ↓
      drills.csv   ← 原本（触るな）
@@ -175,5 +200,6 @@ single多め設計
 性格：
 
 保管庫・ジャンク枠
+
 
 ※ 残しておく価値はある
