@@ -150,3 +150,35 @@
 
 ## データフロー（生成〜印刷）
 
+sudoku_drill_gen.py  
+ ↓  
+drills.csv ← 原本（触るな）  
+ ↓  
+expand_drills.py  
+ ↓  
+drills_expanded.csv ← Excel用  
+ ↓  
+make_drills_pdf.py  
+ ↓  
+drills.pdf ← 印刷物  
+
+
+---
+
+## 別系統（検証）
+
+drills.csv  
+↓  
+sudoku_solve.py ← 唯一解チェック用  
+
+
+---
+
+## 備考
+- このフォルダは「完成品」ではなく**部品集**
+- いつかSudokuアプリを作るときの素材として保存
+
+
+
+
+
