@@ -47,7 +47,7 @@ C:\Tools\
 ### ① リンク元登録
 
 フォルダを右クリック
-→ 「Copy Folder Path（またはリンク元登録）」
+→ 「Set Junction Path（またはリンク元登録）」
 
 → パスを保存
 
