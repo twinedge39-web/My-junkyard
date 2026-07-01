@@ -1,0 +1,621 @@
+{
+  "status": "preservation_split",
+  "scope": "Common reusable control, gaiji, structural, and non-IPA symbols",
+  "derived_from": "maps/symbol_map_solved_initial.json",
+  "tokens": {
+    "hA13E": {
+      "value": "æ",
+      "kind": "latin_ligature",
+      "confidence": "high",
+      "evidence": [
+        "[zA430],[hA13E] => Æ, æ",
+        "C[hA13E]sar => Cæsar"
+      ]
+    },
+    "hA142": {
+      "value": "ç",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "Fran[hA142]ois => François",
+        "fa[hA142]ade => façade",
+        "gar[hA142]on => garçon"
+      ]
+    },
+    "hA143": {
+      "value": "ε",
+      "kind": "greek_letter",
+      "confidence": "high",
+      "evidence": [
+        "epsilon: E,[hA143] => E, ε"
+      ]
+    },
+    "hA145": {
+      "value": "A",
+      "kind": "latin_letter",
+      "confidence": "medium",
+      "evidence": [
+        "[hA145]ll aboard => All aboard",
+        "[hA145]dam's apple => Adam's apple"
+      ]
+    },
+    "hA146": {
+      "value": "A",
+      "kind": "latin_letter",
+      "confidence": "medium",
+      "evidence": [
+        "[hA146]ccidents will happen",
+        "[hA146]cts => Acts",
+        "[hA146]esop => Aesop"
+      ]
+    },
+    "hA147": {
+      "value": "Z",
+      "kind": "latin_letter",
+      "confidence": "medium",
+      "evidence": [
+        "from [hA146] to [hA147] => from A to Z"
+      ]
+    },
+    "hA149": {
+      "value": "y",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "m[hA149] book => my book",
+        "b[hA149]gones => bygones",
+        "cr[hA149]stal => crystal"
+      ]
+    },
+    "hA14A": {
+      "value": "y",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "cr[hA14A] => cry",
+        "t[hA14A]pe => type",
+        "B[hA14A]zantine => Byzantine"
+      ]
+    },
+    "hA14B": {
+      "value": "I",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "[hA14B]ndian => Indian",
+        "[hA14B]slands => Islands",
+        "[hA14B]reland => Ireland"
+      ]
+    },
+    "hA14C": {
+      "value": "I",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "[hA14C]ndia => India",
+        "[hA14C]nland Sea => Inland Sea",
+        "[hA14C]nns of Court"
+      ]
+    },
+    "hA14D": {
+      "value": "U",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "Soviet [hA14D]nion => Soviet Union",
+        "the [hA14D]nion => the Union"
+      ]
+    },
+    "hA14E": {
+      "value": "U",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "[hA14E]ncle Sam => Uncle Sam",
+        "[hA14E]pper House => Upper House",
+        "[hA14E]nion Jack => Union Jack"
+      ]
+    },
+    "hA14F": {
+      "value": "E",
+      "kind": "latin_letter",
+      "confidence": "medium",
+      "evidence": [
+        "[hA14F]gypt => Egypt"
+      ]
+    },
+    "hA150": {
+      "value": "E",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "[hA150]astern => Eastern",
+        "[hA150]ton => Eton"
+      ]
+    },
+    "hA151": {
+      "value": "O",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "Atlantic [hA151]cean => Atlantic Ocean",
+        "Maid of [hA151]rleans => Orleans"
+      ]
+    },
+    "hA152": {
+      "value": "O",
+      "kind": "latin_letter",
+      "confidence": "high",
+      "evidence": [
+        "Foreign [hA152]ffice => Foreign Office",
+        "[hA152]rder of the Garter => Order",
+        "[hA152]h my God! => Oh my God!"
+      ]
+    },
+    "hA153": {
+      "value": "â",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "ch[hA153]teau => château",
+        "p[hA153]te => pâté",
+        "papier-m[hA153]ché => papier-mâché"
+      ]
+    },
+    "hA154": {
+      "value": "î",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "pla[hA154]t => plaît"
+      ]
+    },
+    "hA156": {
+      "value": "ê",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "b[hA156]te noire => bête noire",
+        "cr[hA156]pe => crêpe",
+        "t[hA156]te-à-t[hA156]te => tête-à-tête"
+      ]
+    },
+    "hA157": {
+      "value": "ô",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "r[hA157]le => rôle",
+        "d'h[hA157]te => d'hôte"
+      ]
+    },
+    "hA159": {
+      "value": "ï",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "na[hA159]ve => naïve",
+        "na[hA159]veté => naïveté"
+      ]
+    },
+    "hA15A": {
+      "value": "ü",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "M[hA15A]nchen => München"
+      ]
+    },
+    "hA15B": {
+      "value": "ë",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "Pha[hA15B]thon => Phaëthon"
+      ]
+    },
+    "hA15C": {
+      "value": "ö",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "K[hA15C]ln => Köln",
+        "r[hA15C]ntgen => röntgen",
+        "Laoco[hA15C]n => Laocoön"
+      ]
+    },
+    "hA15D": {
+      "value": "ã",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "S[hA15D]o Pau・lo => São Paulo"
+      ]
+    },
+    "hA15E": {
+      "value": "ñ",
+      "kind": "latin_letter_diacritic",
+      "confidence": "high",
+      "evidence": [
+        "se・[hA15E]or => señor",
+        "se・no・ri・ta context"
+      ]
+    },
+    "zA422": {
+      "value": "˘",
+      "kind": "diacritic_mark",
+      "confidence": "medium",
+      "evidence": [
+        "[zA422]a,[zA422]e,[zA422]o short-vowel marker",
+        "domo[zA422]i transliteration example"
+      ]
+    },
+    "zA428": {
+      "value": "聡",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "[zA428]明 => 聡明",
+        "〈[zA428]い => 〈聡い"
+      ]
+    },
+    "zA429": {
+      "value": "顬",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "顳[zA429] => 顳顬",
+        "こめかみ entry"
+      ]
+    },
+    "zA42A": {
+      "value": "蝲",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "〈[zA42A]蛄〉 => 〈蝲蛄〉",
+        "ざりがに entry"
+      ]
+    },
+    "zA42C": {
+      "value": "鞴",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "蹈[zA42C] => 蹈鞴",
+        "たたら entry"
+      ]
+    },
+    "zA421": {
+      "value": "祷",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "祈[zA421]（とう）書 => 祈祷書",
+        "祝[zA421]（しゅくとう） => 祝祷"
+      ]
+    },
+    "zA423": {
+      "value": "<subentry>",
+      "kind": "subentry_start",
+      "confidence": "medium",
+      "evidence": [
+        "Appears before a new headword block inside a body, e.g. ability => a・bil・i・ty"
+      ]
+    },
+    "zA424": {
+      "value": "<subentry>",
+      "kind": "subentry_start",
+      "confidence": "medium",
+      "evidence": [
+        "Appears before another new headword block inside a body, e.g. ablaze => a・ble"
+      ]
+    },
+    "zA425": {
+      "value": "<label>",
+      "kind": "semantic_label_start",
+      "confidence": "high",
+      "evidence": [
+        "[zA425]英[zA426]",
+        "[zA425]米[zA426]",
+        "[zA425]音楽[zA426]"
+      ]
+    },
+    "zA426": {
+      "value": "</label>",
+      "kind": "semantic_label_end",
+      "confidence": "high",
+      "evidence": [
+        "Pairs with zA425"
+      ]
+    },
+    "zA427": {
+      "value": "<sense-group>",
+      "kind": "sense_group_marker",
+      "confidence": "medium",
+      "evidence": [
+        "Appears before bracketed sense glosses such as ［(同類の中で)1つの］"
+      ]
+    },
+    "zA42D": {
+      "value": "<usage>",
+      "kind": "usage_note_marker",
+      "confidence": "high",
+      "evidence": [
+        "［[zA42D]can と be able to］",
+        "［[zA42D]allの位置］"
+      ]
+    },
+    "zA42E": {
+      "value": "⇔",
+      "kind": "contrast_or_counterpart_marker",
+      "confidence": "medium",
+      "evidence": [
+        "[zA42E]below",
+        "[zA42E]before",
+        "[zA42E]abbot",
+        "[zA42E]unable"
+      ]
+    },
+    "zA42F": {
+      "value": "<derived>",
+      "kind": "derived_form_marker",
+      "confidence": "medium",
+      "evidence": [
+        "[zA42F]〈動〉abhor",
+        "[zA42F]〈名〉ability.〈動〉enable"
+      ]
+    },
+    "zA430": {
+      "value": "Æ",
+      "kind": "latin_ligature",
+      "confidence": "high",
+      "evidence": [
+        "[zA430]sop => Aesop",
+        "[zA430],[hA13E] => Æ, æ"
+      ]
+    },
+    "zA431": {
+      "value": "噯",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "おくび【[zA431]気が出る】 => おくび【噯気が出る】"
+      ]
+    },
+    "zA432": {
+      "value": "洟",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "かむ【[zA432]む】[鼻を] blow one's nose => 洟む"
+      ]
+    },
+    "zA433": {
+      "value": "斯",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "きりぎりす【螽[zA433]】 => 螽斯"
+      ]
+    },
+    "zA434": {
+      "value": "顬",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "こめかみ【顳[zA434]】 => 顳顬"
+      ]
+    },
+    "zA435": {
+      "value": "蝲",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "ざりがに【[zA435]蛄】 => 蝲蛄"
+      ]
+    },
+    "zA436": {
+      "value": "叉",
+      "kind": "kanji_gaiji",
+      "confidence": "medium",
+      "evidence": [
+        "たも【[zA436]網】 => 叉網 (landing net)"
+      ]
+    },
+    "zA437": {
+      "value": "骶",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "びていこつ【尾[zA437]骨】 => 尾骶骨"
+      ]
+    },
+    "zA438": {
+      "value": "瘭",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "ひょうそ【[zA438]疽】 => 瘭疽"
+      ]
+    },
+    "zA439": {
+      "value": "鞴",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "ふいご【[zA439]】 => 鞴"
+      ]
+    },
+    "zA441": {
+      "value": "◆",
+      "kind": "example_or_phrase_bullet",
+      "confidence": "medium",
+      "evidence": [
+        "Appears before phrase/example lines in Japanese-English text dump"
+      ]
+    },
+    "zA43B": {
+      "value": "鮄",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "ほうぼう【魴[zA43B]】 => 魴鮄"
+      ]
+    },
+    "zA43A": {
+      "value": "・",
+      "kind": "subentry_separator_or_bullet",
+      "confidence": "low",
+      "evidence": [
+        "Appears before related subterms in test_dic, e.g. 亜熱帯/東亜"
+      ]
+    },
+    "zA43C": {
+      "value": "鼯",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "むささび【[zA43C]鼠】 => 鼯鼠"
+      ]
+    },
+    "zA43D": {
+      "value": "工",
+      "kind": "shape_or_reference_character",
+      "confidence": "medium",
+      "evidence": [
+        "鳥居 definition: [zA43D]の形をしている => 工の形",
+        "descriptive reference shape"
+      ]
+    },
+    "zA43E": {
+      "value": "踠",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "もがく【[zA43E]く】 => 踠く"
+      ]
+    },
+    "zA43F": {
+      "value": "捥",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "[zA43F]ぐ, [zA43F]ぎ取る => 捥ぐ, 捥ぎ取る"
+      ]
+    },
+    "zA440": {
+      "value": "蝋",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "ろうけつぞめ【[zA440]纈染め】 => 蝋纈染め"
+      ]
+    },
+    "zA442": {
+      "value": "鱓",
+      "kind": "kanji_gaiji",
+      "confidence": "medium",
+      "evidence": [
+        "うつぼ【[zA442]】 《魚》a moray => 鱓"
+      ]
+    },
+    "zA443": {
+      "value": "蜒",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "蜿[zA443]たる => 蜿蜒たる"
+      ]
+    },
+    "zA444": {
+      "value": "楫",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "かい【櫂,[zA444]】 => 櫂,楫"
+      ]
+    },
+    "zA445": {
+      "value": "橿",
+      "kind": "kanji_gaiji",
+      "confidence": "high",
+      "evidence": [
+        "かしわ【[zA445],柏】 => 橿,柏"
+      ]
+    },
+    "zA446": {
+      "value": "♪",
+      "kind": "music_symbol",
+      "confidence": "high",
+      "evidence": [
+        "音符 entry: [zA446][=四分音符]"
+      ]
+    },
+    "zA447": {
+      "value": "♣",
+      "kind": "card_suit_symbol",
+      "confidence": "high",
+      "evidence": [
+        "club entry: [zA447]形 => ♣形"
+      ]
+    },
+    "zA448": {
+      "value": "ゞ",
+      "kind": "iteration_mark",
+      "confidence": "high",
+      "evidence": [
+        "畳字 entry: ゝ・[zA448]・々・〻 => ゝ・ゞ・々・〻"
+      ]
+    },
+    "zA449": {
+      "value": "♠",
+      "kind": "card_suit_symbol",
+      "confidence": "high",
+      "evidence": [
+        "spade entry: [zA449]形 => ♠形"
+      ]
+    },
+    "zA44A": {
+      "value": "♦",
+      "kind": "card_suit_symbol",
+      "confidence": "high",
+      "evidence": [
+        "diamond entry: [zA44A]形 => ♦形"
+      ]
+    },
+    "zA44B": {
+      "value": "〜",
+      "kind": "line_symbol",
+      "confidence": "high",
+      "evidence": [
+        "波線 entry: 「[zA44B]」や「~」 => 「〜」や「~」"
+      ]
+    },
+    "zA44C": {
+      "value": "♥",
+      "kind": "card_suit_symbol",
+      "confidence": "high",
+      "evidence": [
+        "heart entry: [zA44C]形 => ♥形"
+      ]
+    },
+    "zA44D": {
+      "value": "- - -",
+      "kind": "line_symbol",
+      "confidence": "medium",
+      "evidence": [
+        "破線 entry: 「[zA44D]」 => broken-line sample",
+        "descriptive substitution for dashed line"
+      ]
+    },
+    "zA44E": {
+      "value": "゜",
+      "kind": "diacritic_mark",
+      "confidence": "high",
+      "evidence": [
+        "半濁点 entry: 右上の「[zA44E]」 => ゜"
+      ]
+    }
+  }
+}
