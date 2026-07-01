@@ -1,0 +1,295 @@
+{
+  "status": "preservation_split",
+  "scope": "English pronunciation and pronunciation-length symbols",
+  "derived_from": "maps/symbol_map_solved_initial.json",
+  "tokens": {
+    "hA121": {
+      "value": "ə",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "a/an weak form: [hA121], [hA121]n",
+        "abandon-like unstressed vowels"
+      ]
+    },
+    "hA122": {
+      "value": "æ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "a/an strong forms: [hA122]n, [hA122]t"
+      ]
+    },
+    "hA123": {
+      "value": "æ",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "apple: [hA121]n [hA123]pl",
+        "abaci: [hA123]b[hA121]s..."
+      ]
+    },
+    "hA124": {
+      "value": "ɑ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "honest: [hA124]n[hA121]st",
+        "abdominal examples"
+      ]
+    },
+    "hA125": {
+      "value": "e",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "LP: [hA125]lp...",
+        "shipmate: m[hA125]it"
+      ]
+    },
+    "hA126": {
+      "value": "ɪ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "ship: [hA12E][hA126]p",
+        "instant: [hA126]nst..."
+      ]
+    },
+    "hA127": {
+      "value": "ː",
+      "kind": "phonetic_length",
+      "confidence": "high",
+      "evidence": [
+        "university: j[hA128][hA127]",
+        "LP: p[hA126][hA127]",
+        "bird: b[hA13A][hA127]rd"
+      ]
+    },
+    "hA128": {
+      "value": "u",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "university: j[hA128][hA127]",
+        "absolute variants"
+      ]
+    },
+    "hA129": {
+      "value": "ʌ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "one: w[hA129]n"
+      ]
+    },
+    "hA12A": {
+      "value": "a",
+      "kind": "phonetic",
+      "confidence": "low",
+      "evidence": [
+        "abaci ending: s[hA12A]i",
+        "have/lay/law contexts conflict; keep as candidate"
+      ]
+    },
+    "hA12B": {
+      "value": "æ",
+      "kind": "phonetic",
+      "confidence": "low",
+      "evidence": [
+        "abdication/abnormal initial vowel contexts; may encode stress or variant"
+      ]
+    },
+    "hA12C": {
+      "value": "a",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "ground: gr[hA12C]und => ground-like 'au'",
+        "around: ar[hA12C]und; combines with following u"
+      ]
+    },
+    "hA12D": {
+      "value": "e",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "abase: [hA121]b[hA12D]is => əbeis",
+        "abbreviation: vi[hA12D]i...; combines with following i"
+      ]
+    },
+    "hA12E": {
+      "value": "ʃ",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "ship: [hA12E][hA126]p",
+        "abash: [hA121]b[hA123][hA12E]",
+        "abbreviation ending"
+      ]
+    },
+    "hA12F": {
+      "value": "ɪ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "difficult: d[hA12F]fficult",
+        "seed: s[hA12F][hA127]d"
+      ]
+    },
+    "hA130": {
+      "value": "ɔ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "lawful: l[hA130][hA127]fl",
+        "abhor-like contexts"
+      ]
+    },
+    "hA131": {
+      "value": "ʌ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "abduct: [hA122]bd[hA131]kt",
+        "above: [hA121]b[hA131]v"
+      ]
+    },
+    "hA132": {
+      "value": "ŋ",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "-ing endings: i[hA132]",
+        "abiding/accommodation examples"
+      ]
+    },
+    "hA133": {
+      "value": "æ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "abandon: ab[hA133]ndon",
+        "aback/take contexts; card contexts may need dialect review"
+      ]
+    },
+    "hA134": {
+      "value": "ʒ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "abject: [hA123]bd[hA134]ekt, where d + symbol likely forms dʒ"
+      ]
+    },
+    "hA135": {
+      "value": "u",
+      "kind": "phonetic",
+      "confidence": "low",
+      "evidence": [
+        "absolute/abjure-like contexts; may be ju or u-colored component"
+      ]
+    },
+    "hA136": {
+      "value": "g",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "girl: [hA136][hA13A][hA127]rl"
+      ]
+    },
+    "hA137": {
+      "value": "ɔ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "abnormal: ...n[hA137][hA127]r..."
+      ]
+    },
+    "hA138": {
+      "value": "ɒ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "A-bomb: ...b[hA138]m",
+        "abomination: [hA138]m... contrasts with [hA139] alternate form"
+      ]
+    },
+    "hA139": {
+      "value": "ɔ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "A-bomb alternate: ...b[hA139]m",
+        "aboveboard: b[hA139][hA127]rd"
+      ]
+    },
+    "hA13A": {
+      "value": "ɜ",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "bird: b[hA13A][hA127]rd",
+        "girl: g[hA13A][hA127]rl"
+      ]
+    },
+    "hA13B": {
+      "value": "ʌ",
+      "kind": "phonetic",
+      "confidence": "low",
+      "evidence": [
+        "some cover/come contexts fit; court contexts conflict and need review"
+      ]
+    },
+    "hA13D": {
+      "value": "ʌ",
+      "kind": "phonetic",
+      "confidence": "low",
+      "evidence": [
+        "adjunct-like context: j[hA13D]...; provisional from single occurrence"
+      ]
+    },
+    "hA140": {
+      "value": "θ",
+      "kind": "phonetic",
+      "confidence": "high",
+      "evidence": [
+        "thing: [hA140]i[hA132]"
+      ]
+    },
+    "hA13F": {
+      "value": "ɑ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "aft: [hA13F]ft",
+        "aloha: [hA13F]l..."
+      ]
+    },
+    "hA13C": {
+      "value": "ð",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "thine: [hA13C]ain"
+      ]
+    },
+    "hA141": {
+      "value": "ɜ",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "airworthy-like context: w[hA141][hA127]...",
+        "limited residual occurrence"
+      ]
+    },
+    "hA144": {
+      "value": "e",
+      "kind": "phonetic",
+      "confidence": "medium",
+      "evidence": [
+        "fair/fairway/fair-weather: f[hA144][hA121]r...",
+        "fantasia: ...t[hA144]i... => tei/teɪ pattern"
+      ]
+    }
+  }
+}
